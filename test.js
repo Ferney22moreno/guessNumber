@@ -68,7 +68,7 @@ for( let s = 0; s < elements.length; s++ ){
         checkValue = true;
       } while(!checkValue);
 
-      if(numberTimes >= 5){
+      if(numberTimes >= 5 && parseInt(contentNumber) !== numberGuess){
         document.write(`<h2>sorry, you lost the game, you didn't guess the number, it was ${numberGuess}</h2>`);
       }
     });
